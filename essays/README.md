@@ -6,7 +6,7 @@
 `kubectl create -f deployment.yml`
 ![alt text](image-1.png)
 
-
+best practice naikin limit jangan turunin requests
 ![alt text](image-2.png)
 
 ![alt text](image-3.png)
@@ -32,3 +32,5 @@
 
 `kubectl describe pods debug-deployment-d967f8d4f-2zwjd`
 ![alt text](image-10.png)
+
+Liveness and readiness check error caused by kubernetes did not found api endpoint /healthz
